@@ -1,12 +1,7 @@
-@extends('admin.layouts.app')
-
-@section('title', 'Criar Novo Post')
-
-@section('content')
 <h1>Cadastrar Novo Post</h1>
-
 <form action="{{ route('posts.store') }}" method="post">
-    @include('admin.posts._partials.form')
+    @csrf
+    <input type="text" name="title" id="title" placeholder="Titulo">
+    <textarea name="content" id="content" cols="30" rows="4" placeholder="Conteudo"></textarea>
+    <button type="submit">Enviar</button>
 </form>
-
-@endsection
