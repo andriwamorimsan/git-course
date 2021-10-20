@@ -1,0 +1,63 @@
+.container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgb(245, 245, 245);
+    height: auto;
+} 
+
+.menu {
+    margin: 20px 30px;    
+    padding: 10px;    
+}
+
+.menu ul {
+    margin-top: -40px;
+    float: right;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu-2 {
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.painel {
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 15px;
+    padding: 15px;    
+    width: 1100px;      
+}
+
+.cartao-1 {    
+    margin-right: 5px;
+    margin-left: 10px;    
+}
+
+.cartao-2 {
+    margin-top: -328px;
+    margin-left: 276px;    
+}
+
+.cartao-3 {
+    margin-left: 542px;
+    margin-top: -328px;         
+}
+
+.cartao-4 {
+    margin-left: 810px;
+    margin-top: -328px;
+}
+
+.subi-cards-1 {
+    margin-bottom: 10px;
+}
+
+
+
+
